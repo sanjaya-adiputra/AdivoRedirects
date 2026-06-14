@@ -2,46 +2,22 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "wa.adivo.dev"
-        }
-      ],
+      "source": "https://wa.adivo.dev/:path*",
       "destination": "https://wa.me/6283831409855",
       "permanent": false
     },
     {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "ig.adivo.dev"
-        }
-      ],
+      "source": "https://ig.adivo.dev/:path*",
       "destination": "https://www.instagram.com/sanjaya.ads10",
       "permanent": false
     },
     {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "tt.adivo.dev"
-        }
-      ],
+      "source": "https://tt.adivo.dev/:path*",
       "destination": "https://www.tiktok.com/@sanjaya_adiputra_",
       "permanent": false
     },
     {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "gh.adivo.dev"
-        }
-      ],
+      "source": "https://gh.adivo.dev/:path*",
       "destination": "https://github.com/sanjaya-adiputra",
       "permanent": false
     }
