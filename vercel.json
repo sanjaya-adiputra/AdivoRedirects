@@ -2,24 +2,108 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "https://wa.adivo.dev/:path*",
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "wa.adivo.dev"
+          }
+        }
+      ],
       "destination": "https://wa.me/6283831409855",
-      "permanent": false
+      "statusCode": 302
     },
     {
-      "source": "https://ig.adivo.dev/:path*",
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "whatsapp.adivo.dev"
+          }
+        }
+      ],
+      "destination": "https://wa.me/6283831409855",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "ig.adivo.dev"
+          }
+        }
+      ],
       "destination": "https://www.instagram.com/sanjaya.ads10",
-      "permanent": false
+      "statusCode": 302
     },
     {
-      "source": "https://tt.adivo.dev/:path*",
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "instagram.adivo.dev"
+          }
+        }
+      ],
+      "destination": "https://www.instagram.com/sanjaya.ads10",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "tt.adivo.dev"
+          }
+        }
+      ],
       "destination": "https://www.tiktok.com/@sanjaya_adiputra_",
-      "permanent": false
+      "statusCode": 302
     },
     {
-      "source": "https://gh.adivo.dev/:path*",
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "tiktok.adivo.dev"
+          }
+        }
+      ],
+      "destination": "https://www.tiktok.com/@sanjaya_adiputra_",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "gh.adivo.dev"
+          }
+        }
+      ],
       "destination": "https://github.com/sanjaya-adiputra",
-      "permanent": false
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "github.adivo.dev"
+          }
+        }
+      ],
+      "destination": "https://github.com/sanjaya-adiputra",
+      "statusCode": 302
     }
   ]
 }
