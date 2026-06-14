@@ -1,0 +1,38 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "wa.adivo.dev"
+        }
+      ],
+      "destination": "https://wa.me/6283831409855",
+      "permanent": false
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "ig.adivo.dev"
+        }
+      ],
+      "destination": "https://www.instagram.com/sanjaya.ads10",
+      "permanent": false
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "tt.adivo.dev"
+        }
+      ],
+      "destination": "https://www.tiktok.com/@sanjaya_adiputra_",
+      "permanent": false
+    }
+  ]
+}
