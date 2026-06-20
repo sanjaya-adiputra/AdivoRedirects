@@ -33,6 +33,32 @@
         {
           "type": "host",
           "value": {
+            "eq": "tg.adivo.dev"
+          }
+        }
+      ],
+      "destination": "https://t.me/sanjaya_adiputra",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "telegram.adivo.dev"
+          }
+        }
+      ],
+      "destination": "https://t.me/sanjaya_adiputra",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
             "eq": "ig.adivo.dev"
           }
         }
@@ -77,6 +103,32 @@
         }
       ],
       "destination": "https://www.tiktok.com/@sanjaya_adiputra_",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "yt.adivo.dev"
+          }
+        }
+      ],
+      "destination": "https://www.youtube.com/@SanjayaAdiputra-100",
+      "statusCode": 302
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": {
+            "eq": "youtube.adivo.dev"
+          }
+        }
+      ],
+      "destination": "https://www.youtube.com/@SanjayaAdiputra-100",
       "statusCode": 302
     },
     {
